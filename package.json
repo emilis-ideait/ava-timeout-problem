@@ -1,0 +1,28 @@
+{
+  "name": "ava-timeout-problem",
+  "version": "1.0.0",
+  "description": "A demonstration of a timeout problem in Ava test runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "workaround": "ava workaround.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilis-ideait/ava-timeout-problem.git"
+  },
+  "keywords": [
+    "ava",
+    "test",
+    "timeout"
+  ],
+  "author": "Emilis (Idea IT)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilis-ideait/ava-timeout-problem/issues"
+  },
+  "homepage": "https://github.com/emilis-ideait/ava-timeout-problem#readme",
+  "dependencies": {
+    "ava": "^5.1.1"
+  }
+}
